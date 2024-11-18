@@ -1,5 +1,5 @@
 1
-#Syn code is always dangerous because it's sometime fail
+#don't forget type 1 after comment then syncomment
 
 from flask import Flask, render_template, request
 
