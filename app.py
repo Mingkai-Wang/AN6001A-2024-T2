@@ -12,10 +12,10 @@ def index():
 
 @app.route("/main", methods=["GET", "POST"])
 def main():
-    name = request.form.form.get("q")
+    name = request.form.get("q")
 
     return(render_template("main.html"))
 
 if __name__ == "__main__":
-    app.run(port=1234)
+    app.run(port=3566)
 1#
